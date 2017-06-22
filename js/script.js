@@ -1,3 +1,4 @@
+//map in footer
 var map, center;
 function initMap() {
     center = {lat: 49.8394845, lng: 24.0311947};
@@ -12,7 +13,6 @@ function initMap() {
 }
 
 $(document).ready(function () {
-
     // initialize carousel in top of page
     $('#main-carousel').carousel({
         interval: 3000,
