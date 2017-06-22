@@ -55,6 +55,11 @@ $(document).ready(function () {
             $('body').animate({
                 scrollTop: blockToScroll.offset().top - headerHeight
             }, 1000);
+
+            if (burgerBtn.is(":visible")) {
+                burgerBtn.removeClass('is-active');
+                nav.removeClass('active');
+            }
         }
     });
 
